@@ -1,0 +1,10 @@
+{
+  "aws": {
+    "s3": {
+      "key": "KEY",
+      "secret": "SECRET",
+      "bucket": "BUCKET",
+      "region": "REGION"
+    }
+  }
+}

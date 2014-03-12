@@ -1,0 +1,19 @@
+{
+  "name": "s3-upload",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "knox": "~0.8.9",
+    "config": "~0.4.35",
+    "optimist": "~0.6.1",
+    "underscore": "~1.6.0",
+    "colors": "~0.6.2",
+    "bluebird": "~1.1.0"
+  }
+}
