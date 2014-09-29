@@ -27,7 +27,8 @@ s3Upload(base, argv.prefix)
     console.log('\nupload success.'.cyan);
     console.log('uploaded file urls:'.cyan);
     _(urls).each(function(url) {
-      console.log('\t%s', url);
+      var fileName = url.split("/").pop().replace(/\..*/,"");
+      console.log( '\t%s,%s,1' , fileName , url);
     });
     process.exit();
   })
